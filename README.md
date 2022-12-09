@@ -60,7 +60,6 @@ Monster의 개별적인 정보는 파일입출력을 통해 text파일에서 데
 
 ![이미지6](https://user-images.githubusercontent.com/82795868/206779374-8167ea91-eb3c-4b9a-a88c-2395e0ee87cf.png)
 
-![이미지7](https://user-images.githubusercontent.com/82795868/206779375-9bd16e07-fdc5-4cdc-a7c4-12bd3830a7d2.png)
 
 Weapon클래스는 객체1개의 무기의 이름 , 종류 , 데미지 ,가격을 저장
 각 무기별로 Weapon을 상속받는 구조로 짜기위해 protected를 사용했으며
