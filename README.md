@@ -52,8 +52,6 @@ Monster와 관련있는 함수와 데이터를 처리하고 담당
 
 ![이미지10](https://user-images.githubusercontent.com/82795868/206780500-415a8d51-2aab-42ce-8c3a-36cd23a2c88e.png)
 
-![이미지6](https://user-images.githubusercontent.com/82795868/206779374-8167ea91-eb3c-4b9a-a88c-2395e0ee87cf.png)
-
 Monster의 개별적인 정보는 파일입출력을 통해 text파일에서 데이터를 가져옴 
 
 **Weapon.cpp Weapon.h**
