@@ -71,12 +71,23 @@ Weapon클래스는 객체1개의 무기의 이름 , 종류 , 데미지 ,가격�
 **각 무기별 클래스별로 Weapon을 상속받은 후 Attack 무기의 효과는 전부 다르게 구현하기위해
 virtual을 이용하여 순수가상함수로 생성**
 
+**Shop.cpp Shop.h**
+
 ![이미지9](https://user-images.githubusercontent.com/82795868/206779379-56a8124c-af23-441a-935e-b15b7fdebce3.png)
 
+**Shop클래스는 vector로 전체무기목록을 가지고 관리가지고 상점을 관리**
+m_tmpList는 상점에서 무기목록을 보여주기 위해 사용 
+Monster와 마찬가지로 각 원소에 접근하기 쉽고 데이터의 변경이 잘 일어나지 않기때문에 List대신 Vector사용
 
+​
+
+**MapDraw.cpp/MapDraw.h**
+
+화면과 커서를 그리는 함수를 직접 구현하여둔 클래스. 
+필요한곳에서 DrawManager를 통해 호출하여 사용
 
 실제 플레이 영상
-https://youtu.be/wZTTPIDpW8A
+https://youtu.be/xUwx_jfdvEE
 
 다운로드
-http://naver.me/GD5Nq9z8
+http://naver.me/F9pzkaTE
