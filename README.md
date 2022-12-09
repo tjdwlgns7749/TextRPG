@@ -50,24 +50,31 @@ Player와 연관있는 함수를 처리하고 담당
 Player와 마찬가지로 Character 클래스를 상속받은 자식클래스이다.
 Monster와 관련있는 함수와 데이터를 처리하고 담당
 
+![이미지10](https://user-images.githubusercontent.com/82795868/206780500-415a8d51-2aab-42ce-8c3a-36cd23a2c88e.png)
+
 ![이미지6](https://user-images.githubusercontent.com/82795868/206779374-8167ea91-eb3c-4b9a-a88c-2395e0ee87cf.png)
 
 Monster의 개별적인 정보는 파일입출력을 통해 text파일에서 데이터를 가져옴 
 
 **Weapon.cpp Weapon.h**
 
+![이미지6](https://user-images.githubusercontent.com/82795868/206779374-8167ea91-eb3c-4b9a-a88c-2395e0ee87cf.png)
+
 ![이미지7](https://user-images.githubusercontent.com/82795868/206779375-9bd16e07-fdc5-4cdc-a7c4-12bd3830a7d2.png)
 
 Weapon클래스는 객체1개의 무기의 이름 , 종류 , 데미지 ,가격을 저장
 각 무기별로 Weapon을 상속받는 구조로 짜기위해 protected를 사용했으며
 
+![이미지7](https://user-images.githubusercontent.com/82795868/206779375-9bd16e07-fdc5-4cdc-a7c4-12bd3830a7d2.png)
+
 ![이미지8](https://user-images.githubusercontent.com/82795868/206779377-afa14322-cc5d-4de1-adf5-5e88161c808c.png)
 
-![이미지9](https://user-images.githubusercontent.com/82795868/206779379-56a8124c-af23-441a-935e-b15b7fdebce3.png)
+
 
 **각 무기별 클래스별로 Weapon을 상속받은 후 Attack 무기의 효과는 전부 다르게 구현하기위해
 virtual을 이용하여 순수가상함수로 생성**
 
+![이미지9](https://user-images.githubusercontent.com/82795868/206779379-56a8124c-af23-441a-935e-b15b7fdebce3.png)
 
 
 
